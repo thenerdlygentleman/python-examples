@@ -1,7 +1,56 @@
 [project]
-name = "template"
+name = "python-examples"
 version = "0.1.0"
-description = "Add your description here"
+description = "Python examples."
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "jupyter==1.0.0",
+    "paramiko==3.4.0",
+    "pillow==10.1.0",
+    "playwright==1.44.0",
+    "pyautogui==0.9.54",
+    "pyexiftool==0.5.6",
+    "pyserial==3.5",
+    "pytesseract==0.3.10",
+    "pytest==8.3.3",
+    "pyyaml==6.0.1",
+    "typer==0.12.3",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "docutils==0.21.2",
+    "pre-commit==3.7.1",
+    "pyinstaller==6.9.0",
+]
+
+[tool.ruff]
+lint.ignore-init-module-imports = true
+lint.select = ["ALL"]
+lint.ignore = [
+    "ANN101",
+    "ANN102",
+    "COM812",
+    "D100",
+    "D206",
+    "D401",
+    "ERA001",
+    "FA102",
+    "FBT001",
+    "FBT002",
+    "I001",
+    "ISC001",
+    "PERF402",
+    "PLR0913",
+    "PLR2004",
+    "S101",
+    "SLF001",
+    "W191",
+]
+
+[tool.ruff.format]
+docstring-code-format = true
+docstring-code-line-length = 50
+indent-style = "tab"
+quote-style = "double"

@@ -1,3 +1,3 @@
-# Template
+# Python Examples
 
-Template repository.
+Collection on python examples and code.

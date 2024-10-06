@@ -1,7 +1,9 @@
 .python-version
 .venv
+*.log
 *cache*
 target
 tmp/*
+use
 # .gitkeep
 tmp/.gitkeep

@@ -1,0 +1,7 @@
+# Path
+CHROME_PROFILE_PATH: $HOME/.config/google-chrome/default
+# URL
+URL_YOUTUBE_MUSIC: https://music.youtube.com/
+URL_TWITCH: https://www.twitch.tv/
+# Elements
+SLIDER_KNOB: //*[@id="sliderKnob"]/div
