@@ -1,0 +1,19 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "bierner.markdown-mermaid",
+                "charliermarsh.ruff",
+                "d-biehl.robotcode",
+                "ms-playwright.playwright",
+                "rust-lang.rust-analyzer",
+                "streetsidesoftware.code-spell-checker",
+                "tamasfe.even-better-toml",
+                "vscode-icons-team.vscode-icons"
+            ]
+        }
+    }
+}
